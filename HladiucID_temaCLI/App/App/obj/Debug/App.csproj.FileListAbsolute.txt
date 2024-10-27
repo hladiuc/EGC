@@ -9,3 +9,4 @@ C:\Users\Ionut-PC\Desktop\EGC\HladiucID_temaCLI\App\App\bin\Debug\OpenTK.dll
 C:\Users\Ionut-PC\Desktop\EGC\HladiucID_temaCLI\App\App\bin\Debug\OpenTK.pdb
 C:\Users\Ionut-PC\Desktop\EGC\HladiucID_temaCLI\App\App\bin\Debug\OpenTK.xml
 C:\Users\Ionut-PC\Desktop\EGC\HladiucID_temaCLI\App\App\obj\Debug\App.csproj.Up2Date
+C:\Users\Ionut-PC\Desktop\EGC\HladiucID_temaCLI\App\App\bin\Debug\coordinates.txt

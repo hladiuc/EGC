@@ -10,9 +10,19 @@ namespace App
     {
         static void Main()
         {
-            using (Window window = new Window())
+            //using (Window window = new Window())
+            //{
+            //    window.Run(30.0, 0.0);
+            //}
+
+            //using (Axis axis = new Axis())
+            //{
+            //    axis.Run(30.0, 0.0);
+            //}
+
+            using (Triangle triangle = new Triangle())
             {
-                window.Run(30.0, 0.0);
+                triangle.Run(30.0, 0.0);
             }
         }
     }
