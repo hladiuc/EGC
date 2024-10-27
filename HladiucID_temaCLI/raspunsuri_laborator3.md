@@ -2,7 +2,7 @@
 
 Este sens anti-orar , dar putem modifica sa fie in sens orar , alterand coordonatele vertexurilor.
 
-private void DrawAxes()
+void DrawAxes()
 {
     GL.LineWidth(2.0f); // linii mai groase , functioneaza doar daca apelul se afla in afara GL.Begin
     GL.PointSize(40.0f); // functioneaza daca GL.Begin are ca parametru PrimitiveType.Points , si face ca punctele sa fie mai groase
