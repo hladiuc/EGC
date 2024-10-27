@@ -2,7 +2,7 @@
 
 Este sens anti-orar , dar putem modifica sa fie in sens orar , alterand coordonatele vertexurilor.
 
-void DrawAxes()
+private void DrawAxes()
 {
     GL.LineWidth(2.0f); // linii mai groase , functioneaza doar daca apelul se afla in afara GL.Begin
     GL.PointSize(40.0f); // functioneaza daca GL.Begin are ca parametru PrimitiveType.Points , si face ca punctele sa fie mai groase
@@ -46,4 +46,4 @@ Ambele trebuie apelate inaintea blocului GL.Begin pentru a functiona.
     Directiva TriangleStrip este o metoda pentru a desena triunghiuri conectate intre ele. Fiecare triunghi nou se formeaza folosind ultimele doua vârfuri si un nou vârf adaugat. Aceasta metoda reduce numarul de coordonate necesare, economisind memorie. Este utila pentru a crea forme complexe si curbe, imbunatatind performanta in procesul de randare.
 
 6. Urmăriți aplicația „shapes.exe” din tutorii OpenGL Nate Robbins. De ce este importantă utilizarea de culori diferite (în gradient sau culori selectate per suprafață) în desenarea obiectelor 3D? Care este avantajul?
-Fara umbre sau shadere, nu putem percepe formele tridimensionale ale obiectelor, ci vedem doar o singura culoare aplicata pe o forma ciudata. Asta face ca obiectele sa para plate si lipsit de detalii, reducand astfel impactul vizual si intelegerea formei reale.
+    Fara umbre sau shadere, nu putem percepe formele tridimensionale ale obiectelor, ci vedem doar o singura culoare aplicata pe o forma ciudata. Asta face ca obiectele sa para plate si lipsit de detalii, reducand astfel impactul vizual si intelegerea formei reale.
