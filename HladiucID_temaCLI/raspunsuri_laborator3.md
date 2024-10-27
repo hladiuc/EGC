@@ -47,3 +47,6 @@ Ambele trebuie apelate inaintea blocului GL.Begin pentru a functiona.
 
 6. Urmăriți aplicația „shapes.exe” din tutorii OpenGL Nate Robbins. De ce este importantă utilizarea de culori diferite (în gradient sau culori selectate per suprafață) în desenarea obiectelor 3D? Care este avantajul?
     Fara umbre sau shadere, nu putem percepe formele tridimensionale ale obiectelor, ci vedem doar o singura culoare aplicata pe o forma ciudata. Asta face ca obiectele sa para plate si lipsit de detalii, reducand astfel impactul vizual si intelegerea formei reale.
+
+7. Ce reprezintă un gradient de culoare? Cum se obține acesta în OpenGL?
+    Un gradient de culoare este o tranzitie de la o culoare la alta. De exemplu, daca avem un gradient de la rosu la albastru, putem vedea nuante de violet intre ele.
