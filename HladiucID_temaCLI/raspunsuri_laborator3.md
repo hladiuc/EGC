@@ -1,9 +1,7 @@
 1. Care este ordinea de desenare a vertexurilor pentru aceste metode (orar sau anti-orar)? Desenați axele de coordonate din aplicația- template folosind un singur apel GL.Begin().
 
-Este sens anti-orar , dar putem modifica sa fie in sens orar , alterand coordonatele vertexurilor.
+    Este sens anti-orar , dar putem modifica sa fie in sens orar , alterand coordonatele vertexurilor.
 
-private void DrawAxes()
-{
     GL.LineWidth(2.0f); // linii mai groase , functioneaza doar daca apelul se afla in afara GL.Begin
     GL.PointSize(40.0f); // functioneaza daca GL.Begin are ca parametru PrimitiveType.Points , si face ca punctele sa fie mai groase
 
@@ -23,7 +21,6 @@ private void DrawAxes()
     GL.Vertex3(0, 0, XYZ_SIZE);
 
     GL.End();
-}
 
 2. Ce este anti-aliasing? Prezentați această tehnică pe scurt.
 
